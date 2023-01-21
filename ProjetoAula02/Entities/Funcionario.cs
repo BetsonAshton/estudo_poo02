@@ -80,7 +80,7 @@ namespace ProjetoAula02.Entities
 
                 var regex = new Regex("^[A-Z0-9]{6,10}$");
                 if (!regex.IsMatch(value))
-                    throw new ArgumentException("Por favor, informe uma mat´ricula válida.");
+                    throw new ArgumentException("Por favor, informe uma matrícula válida.");
                 
 
                 _matricula = value;
